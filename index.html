@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+
+
+.main{
+  list-style-type: none;
+  width: 95%;
+    height: 60px;
+    background-color: rgb(21, 60, 144);
+    margin-top: 0;
+    border-radius: 15px;
+    margin-left: 2%;
+
+    animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0%   {background-color:blue;}
+  25%  {background-color: yellow;}
+  50%  {background-color: red;}
+  100% {background-color: green;}
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 6px;
+
+
+ 
+}
+
+
+
+li a:hover:not(.active) {
+  background-color: #08ac70;
+}
+
+.active {
+  background-color: #08ac70;
+  margin-top: 6px;
+}
+.right h1{
+    font-size: 60px;
+    color: rgb(21, 60, 144);
+    padding-left: 15%;
+   
+    margin-top: 10%;
+}
+.right h1 span{
+    color: rgb(0, 140, 255);
+}
+.right h1 span:hover{
+    color: rgb(99, 16, 124);
+}
+.right h1:hover{
+    color: rgb(70, 9, 9);
+}
+.first{
+  height: 600px;
+    width: 450px;
+    background-color: rgb(21, 60, 144);
+    border-radius: 20px;
+
+   
+  
+}
+
+    .container{
+    height: 780px;
+    width: 50%;
+    margin-left: 0;
+    float: right;
+    margin-top: 10%;
+    
+    
+}
+#h{
+    color: #08ac70;
+    padding-left: 20px;
+  padding-top: 20px;
+}
+#a{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#a:hover{
+    background-color: #08ac70;
+    cursor: pointer;
+}
+#b:hover{
+    background-color: #08ac70;
+    cursor: pointer;
+}
+#c:hover{
+    background-color:#08ac70;
+    cursor: pointer;
+}
+#d:hover{
+    background-color:#08ac70;
+    cursor: pointer;
+}
+
+
+#b{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#c{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#d{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+</style>
+
+</head>
+<body>
+
+  <div class="container">    
+            
+        <div class="first">
+          <h3 id="h">Coder Arman</h3>
+          <hr>
+          <br>
+          <center>
+          <button id="a">Home</button>
+          
+          <button id="b">News</button>
+          
+          <button id="c">About</button>
+          
+          <button id="d">Contact</button>
+          
+         
+      </center>
+      </div>
+  </div>
+
+<br><br>
+
+   
+  <ul class="main">
+  
+    <li><a href="#contect">Contact</a></li>
+    <li><a href="#home">About</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#home">Home</a></li>
+    <li style="float:left"><a class="active" href="#coder">Coder Arman</a></li>
+  </ul>
+  <div class="right">
+            <h1>PURE CSS <br>
+                <span>RESPONSIVE</span>
+                <br>
+            NAVIGATION
+            </h1>
+        </div>
+  
+  
+
+  
+</body>
+</html>
